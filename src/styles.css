@@ -1,0 +1,23 @@
+.jumbotron{
+  background-image: url('images/main-image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat:  no-repeat;
+  height: 250px;
+  width: 100%;
+  position: relative;
+}
+.ribbon-img{
+  background-image: url('https://assets.awwwards.com/bundles/tvweb/images/ribbons/sotd_white_left.png');
+
+}
+.ribbon{
+  position: absolute;
+  top: 50%;
+  left: -12px;
+  width: 90px;
+  height: 151px;
+  background-size: 100% 100%;
+  z-index: 5;
+  transform: translateY(-50%);
+}
