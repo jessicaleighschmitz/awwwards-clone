@@ -24,16 +24,21 @@
 .nav-search {
   padding-right: 20px;
 }
-
-.jumbotron{
-  background-image: url('images/main-image.jpg');
+img.jumbotron{
+  /* margin: 0; */
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  height: 300px;
   width: 100%;
-  position: relative;
-  margin-bottom: 0;
+}
+.jumbotron{
+  /* background-image: url('images/main-image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  /* height: 300px;
+  width: 100%; */
+  /* position: relative; */
+
 }
 .ribbon-img{
   background-image: url('https://assets.awwwards.com/bundles/tvweb/images/ribbons/sotd_white_left.png');
@@ -105,8 +110,7 @@
   margin-bottom: 0;
 }
 .image-main-grid img {
-  width: 100%;
-  height: 100%;
+
 }
 .website-info {
   display: flex;
@@ -127,4 +131,7 @@
 
 .tags {
   display: flex;
+}
+@media (min-width: 470px) {
+
 }
